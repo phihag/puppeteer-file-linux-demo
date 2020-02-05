@@ -1,0 +1,10 @@
+{
+  "name": "puppeteer-file-linux-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "dependencies": {
+    "puppeteer": "^2.1.0"
+  }
+}

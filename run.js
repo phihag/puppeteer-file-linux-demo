@@ -5,7 +5,7 @@ async function main() {
 	const browser = await puppeteer.launch({args: ['--no-sandbox'], headless: false});
 	const page = (await browser.pages())[0];
 
-	page.setContent('<input type=file accepts="aac mp3">');
+	await page.setContent('<input type=file accepts="aac mp3">');
 }
 
 (async () => {
